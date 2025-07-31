@@ -11,7 +11,7 @@ This ROS 2 package provides a teleoperation node that lets you control the Ele
 
 ## Prerequisites
 
-1. **Install pymycobot.**  The official mycobot_ros2 README notes that you must have the Python library installed to communicate with the arm【636979306340876†L274-L302】:
+1. **Install pymycobot.**  The official mycobot_ros2 README notes that you must have the Python library installed to communicate with the arm:
    ```bash
    pip install --user pymycobot
    ```
@@ -19,7 +19,7 @@ This ROS 2 package provides a teleoperation node that lets you control the Ele
    ```bash
    sudo apt install ros-galactic-joy
    ```
-   After installation, verify that your gamepad is detected by running the node and echoing the `/joy` topic【489178215549443†L46-L49】:
+   After installation, verify that your gamepad is detected by running the node and echoing the `/joy` topic:
    ```bash
    ros2 run joy joy_node
    ros2 topic echo /joy
@@ -33,7 +33,7 @@ This ROS 2 package provides a teleoperation node that lets you control the Ele
 
 ## Installation
 
-Clone this repository into the `src` directory of your ROS 2 workspace and build it using `colcon` as you would any other package.  The mycobot_ros2 README provides a similar set of instructions for building their packages【636979306340876†L274-L302】.
+Clone this repository into the `src` directory of your ROS 2 workspace and build it using `colcon` as you would any other package.  The mycobot_ros2 README provides a similar set of instructions for building their packages.
 
 ```bash
 cd ~/colcon_ws/src
